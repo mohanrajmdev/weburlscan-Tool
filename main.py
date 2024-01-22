@@ -4,9 +4,9 @@ from prettytable import *
 import urllib3
 import tldextract
 
-WHOIS_APIKEY = "at_VLvmiwz0jb1NTOBR3CrmrvBWh9xnM"
-URLSCAN_APIKEY = "1acca1ab-7766-4ae3-a8b1-21f69602833c"
-VIRUSTOTAL_APIKEY = "8b6fa26d7c9e48fd89918bdaf3fec33260a807c5dadc8a67ad201805f0c4aa35"
+WHOIS_APIKEY = "YOUR_WHOIS_API"
+URLSCAN_APIKEY = "YOUR_URLSCAN_API"
+VIRUSTOTAL_APIKEY = "YOUR_VIRUSTOTAL_API"
 
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
