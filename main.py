@@ -2,7 +2,6 @@ import re , json
 import requests , time
 from prettytable import *
 import urllib3
-import tldextract
 
 WHOIS_APIKEY = "YOUR_WHOIS_API"
 URLSCAN_APIKEY = "YOUR_URLSCAN_API"
